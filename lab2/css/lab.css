@@ -5,11 +5,11 @@
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #6f8cdd;
-  background-color: #458a74;
+  background-color: #ef9eb8;
 }
 
 h1 {
-  color: #45878a;
+  color: #245e61;
   font-family: 'Papyrus', fantasy;
   font-size: 200%;
 }
@@ -18,4 +18,15 @@ p {
   font-family: 'Papyrus', fantasy;
   text-indent: 20px;
   margin-left: 10px;
+}
+
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #ab6dd2;
+  background-color: #72b8a7;
+}
+
+body {
+  background-color: #4ec1c3;
 }
