@@ -34,3 +34,14 @@ h1 {
   border: solid 1px #888;
   background-color: #A3C9A8;
 }
+
+.special-section {
+  font-family: "calibri";
+  background-color: rgb(237, 137, 153);
+  font-weight: bold;
+  border: dotted 5px rgb(77, 119, 236);
+}
+
+.red {
+color: red
+}
