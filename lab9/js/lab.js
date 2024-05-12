@@ -6,27 +6,30 @@
 * Requirements: jQuery must be loaded for this script to work.
 */
 
-$(document).ready(function() {
-});
+  
 // add button to challenge section
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
+
+// add button to challenge section
 $("#problems").append("<button id='button-problems'>Make Special</button>");
-$("#results").append("<button id='button-results'>Make Special</button>");
+
+// add button to challenge section
+$("#reflection").append("<button id='button-reflection'>Make Special</button>");
 
 // add a click listener to the challenge button
-$("#challenge").on("click", "#button-challenge", function(){
+$("#button-reflection").click(function(){
     // now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
+    $("#reflection").toggleClass("special");
 });
 
-// add a click listener to the problems button
-$("#problems").on("click", "#button-problems", function(){
+// add a click listener to the challenge button
+$("#button-problems").click(function(){
     // now add (or subtract) the "special" class to the section
     $("#problems").toggleClass("special");
 });
 
-// add a click listener to the results button
-$("#results").on("click", "#button-results", function(){
+// add a click listener to the challenge button
+$("#button-challenge").click(function(){
     // now add (or subtract) the "special" class to the section
-    $("#results").toggleClass("special");
+    $("#challenge").toggleClass("special");
 });

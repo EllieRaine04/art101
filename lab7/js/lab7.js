@@ -19,5 +19,3 @@ function getNameAndSort() {
 // output
 document.writeln("Oh hey, I've fixed your name: ",
     getNameAndSort(), "</br>");
-
-    
