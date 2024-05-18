@@ -1,21 +1,19 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Experimenting
+// Author: Elisa Anderson 
+// Date:5-14-24
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function getNameAndDisplay() {
+  //prompt the user to input their name
+  //var name = prompt("Name Please:");
+  var name 
+  // Use this input to change the text of the h1 using
+$('#title').html('Hello, ' + name);
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//Attatch a click handler to the button within the JS file
+$("#my-button").click(getNameAndDisplay);
+//$("#my-button").click(function(){
+  //console.log("Click")
+//});
 
-// let's get this party started
-main();
+
