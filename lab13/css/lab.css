@@ -1,0 +1,35 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 6px #22a5b9;
+    background-color: #ebcc5e;
+  }
+
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 6px #b56ad2;
+    background-color: #1e8758;
+  }
+
+  h1 {
+    color: #1710e7;
+    font-family: 'cursive', Lucida Handwriting;
+    font-size: 200%;
+  }
+
+  h2 {
+    color: #1710e7;
+    font-family: 'cursive', Lucida Handwriting;
+    font-size: 200%;
+  }
+  
+  p {
+    font-family: 'cursive', Lucida Handwriting;
+    text-indent: 20px;
+    margin-left: 10px;
+    color: #1710e7;
+  }
