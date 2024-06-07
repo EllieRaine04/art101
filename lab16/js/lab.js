@@ -1,23 +1,15 @@
 /*
 * Author: Elisa Anderson,elanande@ucsc.edu>
-* Created: June 1 2024
+* Created: June 6 2024
 * License: Public Domain
 */
 
 //declare the URL
-const URL = "https://icanhazdadjoke.com/";
-
-
-//Click listener
-$("#activate").click(function(){
-   // console.log("click");
-   //call ajax
-  $.ajax(ajaxObj);
-});
+const URL = "https://xkcd.com/info.0.json";
 
 
 //set up ajax object
-const ajaxObj = {
+const comicObj = {
    url: URL,
    // data: {},
    type: "GET",
@@ -31,12 +23,17 @@ const ajaxObj = {
 function ajaxSuccess(data) {
   // console.log("Data:", data);
   // parse json
-  const joke = data.joke;
+  const comic = data.img;
+  const title = data.title;
+  const alt = data.alt;
 
 
-  // put joke in output div
-  $("#output").html("<div>" + joke + "</div>");
- 
+
+
+  // put comic in output div
+  $("#output").html("<div>" + comic + "</div>");
+  $("#output").prepend("<div>" + title + "</div>");
+  $("#output").append("<div>" + alt + "</div>");
 }
 
 
